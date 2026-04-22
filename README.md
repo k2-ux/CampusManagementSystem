@@ -2,16 +2,55 @@
 
 A C++ practice project that demonstrates core object-oriented programming concepts — inheritance, polymorphism, operator overloading, and composition — through a simple command-line interface for managing campus entities like students, professors, courses, and departments.
 
-## Building
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- **Git**
+- **CMake** 3.10 or higher
+- **A C++17-compatible compiler** — GCC 7+, Clang 5+, or MSVC 2017+
+
+On Ubuntu/Debian:
+```bash
+sudo apt update
+sudo apt install git cmake g++
+```
+
+On macOS (with Homebrew):
+```bash
+brew install cmake
+```
+
+### Clone the repository
+
+```bash
+git clone https://github.com/k2-ux/CampusManagementSystem.git
+cd CampusManagementSystem
+```
+
+### Build
 
 ```bash
 mkdir build && cd build
 cmake ..
 make
+```
+
+### Run
+
+```bash
 ./CampusManagementSystem
 ```
 
-Requires CMake 3.10+ and a C++17-compatible compiler.
+You'll see an interactive menu:
+
+```
+1. Add Student
+2. View Students
+3. Exit
+```
 
 ## Project Structure
 
